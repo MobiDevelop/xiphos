@@ -1,0 +1,4 @@
+rootProject.name = 'xiphos'
+
+
+enableFeaturePreview('GRADLE_METADATA')
