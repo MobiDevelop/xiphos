@@ -164,7 +164,7 @@ class Matrix3 {
 
 
     fun rotate(degrees: Degrees): Matrix3 {
-        return this
+        return rotateRad(degrees.toRadians())
     }
 
     fun rotateRad(radians: Radians): Matrix3 {

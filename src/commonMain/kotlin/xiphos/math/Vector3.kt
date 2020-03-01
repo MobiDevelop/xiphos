@@ -32,9 +32,9 @@ class MutableVector3(
     }
 
     fun set(other: Vector3): MutableVector3 {
-        this.x = x
-        this.y = y
-        this.z = z
+        this.x = other.x
+        this.y = other.y
+        this.z = other.z
         return this
     }
 
