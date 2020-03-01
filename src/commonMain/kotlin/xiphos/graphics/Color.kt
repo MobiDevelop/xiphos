@@ -55,5 +55,6 @@ class MutableColor(
 }
 
 fun Color.toMutableColor() = MutableColor(this)
+fun MutableColor.toColor() = Color(this)
 
 
